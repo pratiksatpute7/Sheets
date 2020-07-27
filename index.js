@@ -8,12 +8,12 @@ class Entry {
 let cellWidth = 100;
 let cellHeight = 25;
 
-// let noCols = parseInt(prompt("Enter number of cols"));
-let noCols = 100;
+let noCols = parseInt(prompt("Enter number of cols"));
+//let noCols = 100;
 
 let width = noCols * cellWidth;
-// let noRows = parseInt(prompt("Enter number of rows"));
-let noRows = 100;
+let noRows = parseInt(prompt("Enter number of rows"));
+//let noRows = 100;
 let height = noRows * cellHeight;
 
 let c2 = document.getElementById("cols");
